@@ -15,7 +15,7 @@ let gramjsReady = false;
 // Initialize GramJS on startup
 async function ensureGramJS() {
   if (gramjsReady) return true;
-  if (!config.apiId || config.apiId === "12345678") return false;
+  if (!config.apiId || config.apiId === "25461006") return false;
   try {
     await initGramJS(config.apiId, config.apiHash);
     gramjsReady = true;
